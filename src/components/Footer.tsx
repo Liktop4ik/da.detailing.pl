@@ -1,21 +1,40 @@
 import { Sparkles, Instagram, Twitter, Facebook, MapPin, Phone, Mail } from 'lucide-react';
-
-const cols = [
-  {
-    title: 'Services',
-    links: ['Gold Wash', 'Express Detail', 'Interior Detail', 'Deluxe Detail', 'Signature Detail', 'Diamond Ceramic'],
-  },
-  {
-    title: 'Company',
-    links: ['About', 'Locations', 'Join our team', 'Business Clients', 'Support'],
-  },
-  {
-    title: 'Account',
-    links: ['Login', 'Sign up', 'Membership', 'Pricing', 'Repairs'],
-  },
-];
+import { useTranslation } from '@/i18n/TranslationContext';
 
 export default function Footer() {
+  const { t } = useTranslation();
+
+  const serviceLinks = [
+    t('services.items.goldWash.name'),
+    t('services.items.expressDetail.name'),
+    t('services.items.interiorDetail.name'),
+    t('services.items.deluxeDetail.name'),
+    t('services.items.signatureDetail.name'),
+    t('services.items.diamondCeramic.name'),
+  ];
+
+  const companyLinks = [
+    t('footer.about'),
+    t('footer.locations'),
+    t('footer.joinTeam'),
+    t('footer.businessClients'),
+    t('footer.support'),
+  ];
+
+  const accountLinks = [
+    t('footer.login'),
+    t('footer.signUp'),
+    t('footer.membership'),
+    t('footer.pricing'),
+    t('footer.repairs'),
+  ];
+
+  const cols = [
+    { title: t('footer.services'), links: serviceLinks },
+    { title: t('footer.company'), links: companyLinks },
+    { title: t('footer.account'), links: accountLinks },
+  ];
+
   return (
     <footer className="relative border-t border-white/10 bg-ink-950 pt-16">
       <div className="container-x pb-12">
@@ -31,8 +50,7 @@ export default function Footer() {
               </span>
             </a>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-slate-400">
-              The mobile car detailing service that comes to you. Vetted, insured
-              professionals at your doorstep in as little as 90 minutes.
+              {t('brand.tagline')}
             </p>
             <div className="mt-6 flex gap-3">
               {[Instagram, Twitter, Facebook].map((Icon, i) => (
@@ -69,16 +87,18 @@ export default function Footer() {
         <div className="mt-10 flex flex-col gap-3 border-t border-white/10 pt-6 text-sm text-slate-400 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex flex-wrap gap-x-6 gap-y-2">
             <span className="flex items-center gap-2">
-              <MapPin className="h-4 w-4 text-brand-400" /> Los Angeles, CA
+              <MapPin className="h-4 w-4 text-brand-400" /> {t('footer.location')}
             </span>
             <a href="tel:+18552101337" className="flex items-center gap-2 hover:text-white">
-              <Phone className="h-4 w-4 text-brand-400" /> (855) 210-1337
+              <Phone className="h-4 w-4 text-brand-400" /> {t('footer.phone')}
             </a>
             <a href="mailto:support@da.detailing" className="flex items-center gap-2 hover:text-white">
-              <Mail className="h-4 w-4 text-brand-400" /> support@da.detailing
+              <Mail className="h-4 w-4 text-brand-400" /> {t('footer.email')}
             </a>
           </div>
-          <p>© {new Date().getFullYear()} da.detailing. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} da.detailing. {t('footer.rights')}
+          </p>
         </div>
       </div>
     </footer>

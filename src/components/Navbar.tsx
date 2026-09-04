@@ -1,16 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Menu, X, Sparkles } from 'lucide-react';
-
-const links = [
-  { label: 'Pricing', href: '#services' },
-  { label: 'Membership', href: '#membership' },
-  { label: 'Repairs', href: '#repairs' },
-  { label: 'About', href: '#why' },
-  { label: 'Locations', href: '#locations' },
-  { label: 'Support', href: '#faq' },
-];
+import { useTranslation } from '@/i18n/TranslationContext';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 export default function Navbar() {
+  const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -20,6 +14,15 @@ export default function Navbar() {
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
+
+  const links = [
+    { label: t('nav.pricing'), href: '#services' },
+    { label: t('nav.membership'), href: '#membership' },
+    { label: t('nav.repairs'), href: '#repairs' },
+    { label: t('nav.about'), href: '#why' },
+    { label: t('nav.locations'), href: '#locations' },
+    { label: t('nav.support'), href: '#faq' },
+  ];
 
   return (
     <header
@@ -51,21 +54,25 @@ export default function Navbar() {
         </ul>
 
         <div className="hidden items-center gap-3 lg:flex">
+          <LanguageSwitcher />
           <a href="#book" className="text-sm font-medium text-slate-300 transition-colors hover:text-white">
-            Login
+            {t('nav.login')}
           </a>
           <a href="#book" className="btn-primary">
-            Book now
+            {t('nav.bookNow')}
           </a>
         </div>
 
-        <button
-          onClick={() => setOpen((v) => !v)}
-          className="grid h-10 w-10 place-items-center rounded-lg border border-white/10 text-white lg:hidden"
-          aria-label="Toggle menu"
-        >
-          {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-        </button>
+        <div className="flex items-center gap-2 lg:hidden">
+          <LanguageSwitcher />
+          <button
+            onClick={() => setOpen((v) => !v)}
+            className="grid h-10 w-10 place-items-center rounded-lg border border-white/10 text-white"
+            aria-label="Toggle menu"
+          >
+            {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+          </button>
+        </div>
       </nav>
 
       {/* Mobile menu */}
@@ -87,10 +94,10 @@ export default function Navbar() {
           ))}
           <div className="mt-3 flex gap-3">
             <a href="#book" onClick={() => setOpen(false)} className="btn-ghost flex-1">
-              Login
+              {t('nav.login')}
             </a>
             <a href="#book" onClick={() => setOpen(false)} className="btn-primary flex-1">
-              Book now
+              {t('nav.bookNow')}
             </a>
           </div>
         </div>

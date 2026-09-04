@@ -1,0 +1,262 @@
+{
+  "brand": {
+    "name": "da.detailing",
+    "tagline": "The mobile car detailing service that comes to you. Vetted, insured professionals at your doorstep in as little as 90 minutes."
+  },
+  "nav": {
+    "pricing": "Pricing",
+    "membership": "Membership",
+    "repairs": "Repairs",
+    "about": "About",
+    "locations": "Locations",
+    "support": "Support",
+    "login": "Login",
+    "bookNow": "Book now"
+  },
+  "hero": {
+    "badge": "Available in as little as 90 minutes",
+    "title": "The car detail",
+    "titleAccent": "that comes to you",
+    "subtitle": "Professional hand wash and detailing at your home or office. Vetted, insured detailers arrive fully equipped — you just pick the time and place.",
+    "bookNow": "Book now",
+    "viewPricing": "View pricing",
+    "reviews": "10,000+ 5-star reviews since 2015",
+    "insured": "Insured & vetted detailers",
+    "waterless": "Waterless option available",
+    "detailers": "150+ detailers on the road"
+  },
+  "marquee": {
+    "reviews": "10,000+ 5-star reviews",
+    "vetted": "Vetted & insured detailers",
+    "minutes": "Available in 90 minutes",
+    "waterless": "Waterless options",
+    "satisfaction": "100% satisfaction guarantee",
+    "professionals": "150+ professionals",
+    "cashless": "Cashless & secure"
+  },
+  "locations": {
+    "eyebrow": "Now serving",
+    "title": "Trusted detailers in your neighborhood",
+    "subtitle": "Pick your county to see availability and pricing in your area.",
+    "missing": "Don't see your location?",
+    "letUsKnow": "Let us know",
+    "expanding": "— we're expanding fast."
+  },
+  "why": {
+    "eyebrow": "Why da.detailing",
+    "title": "Built around your time, your car, your trust",
+    "convenience": {
+      "title": "Convenience",
+      "blurb": "Get your car washed or detailed from the comfort of your home. Book easy for today or plan ahead."
+    },
+    "quality": {
+      "title": "Quality",
+      "blurb": "Experience exceptional service from our largest network of expert and insured detailers."
+    },
+    "trust": {
+      "title": "Trust",
+      "blurb": "Enjoy peace of mind with our 100% satisfaction policy and a dedicated support team."
+    }
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Services for your lifestyle",
+    "subtitle": "150+ professionals, fully equipped and insured. Prices may vary per market.",
+    "all": "All",
+    "wash": "Wash",
+    "detail": "Detail",
+    "protection": "Protection",
+    "packageDetails": "Package details",
+    "bookNow": "Book now",
+    "from": "from",
+    "forMembers": "for members",
+    "footnote": "*Price may vary per market. Member pricing requires an active membership.",
+    "items": {
+      "goldWash": {
+        "name": "Gold Wash",
+        "tagline": "Essential inside-out wash for regular upkeep.",
+        "cadence": "Weekly or every 200 mi."
+      },
+      "expressDetail": {
+        "name": "Express Detail",
+        "tagline": "Comprehensive wash and wax for an eye-catching finish.",
+        "cadence": "Monthly or every 500 mi."
+      },
+      "interiorDetail": {
+        "name": "Interior Detail",
+        "tagline": "Extensive detail for advanced interior protection and comfort.",
+        "cadence": "Every 2 months or as needed."
+      },
+      "deluxeDetail": {
+        "name": "Deluxe Detail",
+        "tagline": "Essential detailing to protect and maintain your car's shine.",
+        "cadence": "Every 3 months or 1500 mi."
+      },
+      "signatureDetail": {
+        "name": "Signature Detail",
+        "tagline": "Advanced detailing for a showroom finish and superior protection.",
+        "cadence": "Every 6 months or 5000 mi."
+      },
+      "diamondCeramic": {
+        "name": "Diamond Ceramic",
+        "tagline": "Enhance and protect your paint with a deep, lasting gloss for up to 3 years.",
+        "cadence": "Once a year.",
+        "note": "Hydrophobic effects may fade; regular, proper hand washes help preserve the finish and prevent marring."
+      },
+      "rimRefinish": {
+        "name": "Rim Refinish",
+        "tagline": "Fix scratches, scrapes, and curb damage, ensuring like-new wheels.",
+        "cadence": "As needed.",
+        "note": "Service is only intended to fix cosmetic damage and is not a suitable repair for structural damage to the wheel."
+      },
+      "ceramicWindows": {
+        "name": "Ceramic Windows",
+        "tagline": "Maintain your windows spotless, UV-protected, and shining for years.",
+        "cadence": "Every 1–3 years.",
+        "note": "Hydrophobic effects may fade; regular, proper hand washes help preserve the finish and prevent marring."
+      },
+      "ceramicWheels": {
+        "name": "Ceramic Wheels",
+        "tagline": "Keep your rims and wheels glossy, dust resistant and scratch-free for years.",
+        "cadence": "Every 1–3 years.",
+        "note": "Hydrophobic effects may fade; regular, proper hand washes help preserve the finish and prevent marring."
+      },
+      "titaniumGloss": {
+        "name": "Titanium Gloss",
+        "tagline": "Restore your car's paint to a flawless, glossy, and durably protected finish.",
+        "cadence": "Every 1–3 years.",
+        "note": "Results may vary, and not all defects can be removed due to their depth or the condition of the vehicle's paint."
+      }
+    }
+  },
+  "membership": {
+    "eyebrow": "Membership",
+    "title": "Wash more. Pay less.",
+    "subtitle": "Join the da.detailing membership and lock in member pricing on every service, plus priority booking and dedicated support.",
+    "becomeMember": "Become a member",
+    "comparePricing": "Compare pricing",
+    "price": "$39",
+    "pricePeriod": "/month, cancel after 12 months",
+    "perks": {
+      "discount": "Up to 35% off every booking",
+      "priority": "Priority scheduling — book ahead of everyone else",
+      "packages": "Exclusive member-only packages",
+      "support": "Dedicated support line",
+      "billing": "Flexible monthly or annual billing"
+    },
+    "terms": "Minimum 12-month term. $59 early termination fee. Membership fee is non-refundable."
+  },
+  "repairs": {
+    "eyebrow": "More than a clean",
+    "title": "More than just a cleaning service. We do common repairs too.",
+    "items": {
+      "paintlessDent": {
+        "name": "Paintless Dent Repair",
+        "blurb": "Remove minor dents and dings without affecting your factory paint finish."
+      },
+      "titaniumGloss": {
+        "name": "Titanium Gloss",
+        "blurb": "Multi-stage paint correction and ceramic coating for a flawless showroom shine."
+      },
+      "windowTinting": {
+        "name": "Window Tinting",
+        "blurb": "Premium tint films that cut heat, glare, and UV while elevating your car's look."
+      },
+      "wheelRim": {
+        "name": "Wheel & Rim Repair",
+        "blurb": "Fix scratches, scrapes, and curb damage so your wheels look brand new again."
+      }
+    }
+  },
+  "testimonials": {
+    "john": {
+      "quote": "Everything was done without water, hand polished and detailed. I can't believe how convenient it was to get that new car smell!",
+      "name": "John",
+      "location": "Los Angeles, CA"
+    },
+    "josh": {
+      "quote": "I highly recommend da.detailing to anyone looking for a convenient and top-quality car cleaning service. I'll definitely be a repeat customer.",
+      "name": "Josh",
+      "location": "Miami, FL"
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "title": "How does da.detailing work?",
+    "step1": "Step 1",
+    "step1Title": "Book your appointment",
+    "step1Blurb": "Tell us when and where. We'll be there within 90 minutes.",
+    "step2": "Step 2",
+    "step2Title": "We come to you",
+    "step2Blurb": "An assigned detailer will arrive fully equipped to complete your service at the selected location.",
+    "step3": "Step 3",
+    "step3Title": "Rate your detailer",
+    "step3Blurb": "You only get charged after the service. Tell us how we did and rate your detailer."
+  },
+  "cta": {
+    "badge": "New car smell, guaranteed",
+    "title": "Let us help you get that new car smell today",
+    "subtitle": "Sign up and we'll get a fully equipped detailer to your location in as little as 90 minutes.",
+    "bookNow": "Book now",
+    "viewMembership": "View membership"
+  },
+  "faq": {
+    "eyebrow": "Support",
+    "title": "Frequently asked questions",
+    "items": {
+      "q1": {
+        "question": "What's the difference between da.detailing and local car washes?",
+        "answer": "Choosing da.detailing means enjoying unparalleled convenience — imagine having a professional come directly to your home or office to wash your car. Our professionals aren't just any detailers; they've been thoroughly vetted, demonstrating their exceptional skills in person before joining our platform. Fully equipped and insured, they're ready to deliver top-notch service wherever you are."
+      },
+      "q2": {
+        "question": "Do I need to have any equipment?",
+        "answer": "No, you don't! Our detailers arrive fully prepared with all the necessary supplies, including a generator for power and a water supply."
+      },
+      "q3": {
+        "question": "Can you wash the car in any location?",
+        "answer": "To ensure the best service, your car should be parked in an easily accessible location. Please note, that we do not service cars in public parking lots (e.g., grocery stores, malls). Suitable locations include an outdoor parking spot with ample space, an indoor garage or parking area with service authorization, or your home's driveway. For indoor parking services, please provide any necessary access details (like gate codes) when booking."
+      },
+      "q4": {
+        "question": "How do I pay for the service?",
+        "answer": "da.detailing operates on a cashless basis for your convenience and security. Payments can be effortlessly made through our app or website, using a debit or credit card. Our platform is designed to be secure and user-friendly, ensuring a smooth transaction process."
+      },
+      "q5": {
+        "question": "How will you access the car?",
+        "answer": "Upon arrival, the detailer will contact you to coordinate access to your vehicle. You can either meet the detailer in person or provide specific instructions for vehicle access when booking your service."
+      },
+      "q6": {
+        "question": "What if I have more than one car?",
+        "answer": "Easily manage multiple vehicles with our service! Simply use the multiple-car feature on our app or website to schedule services for all your vehicles, ensuring the same detailer takes care of each one."
+      },
+      "q7": {
+        "question": "I'm not sure what I/my car needs: is there anyone I can talk to?",
+        "answer": "Our dedicated customer support team is here to assist you in selecting the perfect package for your car's needs. Feel free to reach out at (855) 210-1337 or email support@da.detailing for personalized advice and support."
+      }
+    }
+  },
+  "footer": {
+    "services": "Services",
+    "company": "Company",
+    "account": "Account",
+    "about": "About",
+    "locations": "Locations",
+    "joinTeam": "Join our team",
+    "businessClients": "Business Clients",
+    "support": "Support",
+    "login": "Login",
+    "signUp": "Sign up",
+    "membership": "Membership",
+    "pricing": "Pricing",
+    "repairs": "Repairs",
+    "rights": "All rights reserved.",
+    "location": "Los Angeles, CA",
+    "phone": "(855) 210-1337",
+    "email": "support@da.detailing"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "pl": "Polski",
+    "ua": "Українська"
+  }
+}

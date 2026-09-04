@@ -1,33 +1,36 @@
 import { CalendarCheck, Truck, Star } from 'lucide-react';
-
-const steps = [
-  {
-    icon: CalendarCheck,
-    step: 'Step 1',
-    title: 'Book your appointment',
-    blurb: 'Tell us when and where. We\u2019ll be there within 90 minutes.',
-  },
-  {
-    icon: Truck,
-    step: 'Step 2',
-    title: 'We come to you',
-    blurb: 'An assigned detailer will arrive fully equipped to complete your service at the selected location.',
-  },
-  {
-    icon: Star,
-    step: 'Step 3',
-    title: 'Rate your detailer',
-    blurb: 'You only get charged after the service. Tell us how we did and rate your detailer.',
-  },
-];
+import { useTranslation } from '@/i18n/TranslationContext';
 
 export default function HowItWorks() {
+  const { t } = useTranslation();
+
+  const steps = [
+    {
+      icon: CalendarCheck,
+      step: t('howItWorks.step1'),
+      title: t('howItWorks.step1Title'),
+      blurb: t('howItWorks.step1Blurb'),
+    },
+    {
+      icon: Truck,
+      step: t('howItWorks.step2'),
+      title: t('howItWorks.step2Title'),
+      blurb: t('howItWorks.step2Blurb'),
+    },
+    {
+      icon: Star,
+      step: t('howItWorks.step3'),
+      title: t('howItWorks.step3Title'),
+      blurb: t('howItWorks.step3Blurb'),
+    },
+  ];
+
   return (
     <section className="relative py-20 md:py-28">
       <div className="container-x">
         <div className="reveal mx-auto max-w-2xl text-center">
-          <p className="eyebrow">How it works</p>
-          <h2 className="section-title mt-3">How does da.detailing work?</h2>
+          <p className="eyebrow">{t('howItWorks.eyebrow')}</p>
+          <h2 className="section-title mt-3">{t('howItWorks.title')}</h2>
         </div>
 
         <div className="relative mt-16 grid gap-10 md:grid-cols-3">
