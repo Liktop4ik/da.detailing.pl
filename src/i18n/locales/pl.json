@@ -1,0 +1,262 @@
+{
+  "brand": {
+    "name": "da.detailing",
+    "tagline": "Mobilny serwis detailingowy, który przyjeżdża do Ciebie. Sprawdzeni i ubezpieczeni specjaliści u Twoich drzwi w zaledwie 90 minut."
+  },
+  "nav": {
+    "pricing": "Cennik",
+    "membership": "Członkostwo",
+    "repairs": "Naprawy",
+    "about": "O nas",
+    "locations": "Lokalizacje",
+    "support": "Pomoc",
+    "login": "Logowanie",
+    "bookNow": "Rezerwuj"
+  },
+  "hero": {
+    "badge": "Dostępne w zaledwie 90 minut",
+    "title": "Detailing",
+    "titleAccent": "który przyjeżdża do Ciebie",
+    "subtitle": "Profesjonalne mycie i detailing ręczne w domu lub biurze. Sprawdzeni, ubezpieczeni detailerzy przyjeżdżają w pełni wyposażeni — Ty wybierasz czas i miejsce.",
+    "bookNow": "Rezerwuj",
+    "viewPricing": "Zobacz cennik",
+    "reviews": "Ponad 10 000 opinii 5-gwiazdkowych od 2015",
+    "insured": "Ubezpieczeni i sprawdzeni detailerzy",
+    "waterless": "Dostępna opcja bezwodna",
+    "detailers": "Ponad 150 detailerów w trasie"
+  },
+  "marquee": {
+    "reviews": "Ponad 10 000 opinii 5-gwiazdkowych",
+    "vetted": "Sprawdzeni i ubezpieczeni detailerzy",
+    "minutes": "Dostępne w 90 minut",
+    "waterless": "Opcje bezwodne",
+    "satisfaction": "100% gwarancja satysfakcji",
+    "professionals": "Ponad 150 profesjonalistów",
+    "cashless": "Bezgotówkowo i bezpiecznie"
+  },
+  "locations": {
+    "eyebrow": "Obsługiwane obszary",
+    "title": "Sprawdzeni detailerzy w Twojej okolicy",
+    "subtitle": "Wybierz swoje hrabstwo, aby zobaczyć dostępność i ceny w Twojej okolicy.",
+    "missing": "Nie widzisz swojej lokalizacji?",
+    "letUsKnow": "Daj nam znać",
+    "expanding": "— szybko się rozwijamy."
+  },
+  "why": {
+    "eyebrow": "Dlaczego da.detailing",
+    "title": "Stworzone dla Twojego czasu, Twojego auta, Twojego zaufania",
+    "convenience": {
+      "title": "Wygoda",
+      "blurb": "Umyj lub wyczyść auto w domu. Zarezerwuj na dziś lub zaplanuj z wyprzedzeniem."
+    },
+    "quality": {
+      "title": "Jakość",
+      "blurb": "Doświadcz wyjątkowej obsługi od naszej największej sieci ekspertów i ubezpieczonych detailerów."
+    },
+    "trust": {
+      "title": "Zaufanie",
+      "blurb": "Ciesz się spokojem dzięki naszej polityce 100% satysfakcji i dedykowanemu zespołowi wsparcia."
+    }
+  },
+  "services": {
+    "eyebrow": "Usługi",
+    "title": "Usługi dopasowane do Twojego stylu życia",
+    "subtitle": "Ponad 150 profesjonalistów, w pełni wyposażonych i ubezpieczonych. Ceny mogą się różnić w zależności od rynku.",
+    "all": "Wszystkie",
+    "wash": "Mycie",
+    "detail": "Detailing",
+    "protection": "Ochrona",
+    "packageDetails": "Szczegóły pakietu",
+    "bookNow": "Rezerwuj",
+    "from": "od",
+    "forMembers": "dla członków",
+    "footnote": "*Cena może się różnić w zależności od rynku. Ceny dla członków wymagają aktywnego członkostwa.",
+    "items": {
+      "goldWash": {
+        "name": "Gold Wash",
+        "tagline": "Podstawowe mycie zewnętrzne i wewnętrzne do regularnej pielęgnacji.",
+        "cadence": "Co tydzień lub co 200 mil."
+      },
+      "expressDetail": {
+        "name": "Express Detail",
+        "tagline": "Kompleksowe mycie i woskowanie dla efektu, który przyciąga wzrok.",
+        "cadence": "Co miesiąc lub co 500 mil."
+      },
+      "interiorDetail": {
+        "name": "Interior Detail",
+        "tagline": "Dokładny detailing dla zaawansowanej ochrony i komfortu wnętrza.",
+        "cadence": "Co 2 miesiące lub w razie potrzeby."
+      },
+      "deluxeDetail": {
+        "name": "Deluxe Detail",
+        "tagline": "Podstawowy detailing chroniący i utrzymujący połysk Twojego auta.",
+        "cadence": "Co 3 miesiące lub co 1500 mil."
+      },
+      "signatureDetail": {
+        "name": "Signature Detail",
+        "tagline": "Zaawansowany detailing dla efektu jak z salonu i doskonałej ochrony.",
+        "cadence": "Co 6 miesięcy lub co 5000 mil."
+      },
+      "diamondCeramic": {
+        "name": "Diamond Ceramic",
+        "tagline": "Popraw i chroń lakier głębokim, trwałym połyskiem do 3 lat.",
+        "cadence": "Raz w roku.",
+        "note": "Efekty hydrofobowe mogą blaknąć; regularne, prawidłowe mycie ręczne pomaga zachować wykończenie i zapobiega zarysowaniom."
+      },
+      "rimRefinish": {
+        "name": "Rim Refinish",
+        "tagline": "Napraw rysy, otarcia i uszkodzenia od krawężników — felgi jak nowe.",
+        "cadence": "W razie potrzeby.",
+        "note": "Usługa ma na celu jedynie naprawę uszkodzeń kosmetycznych i nie jest odpowiednia do naprawy uszkodzeń konstrukcyjnych felgi."
+      },
+      "ceramicWindows": {
+        "name": "Ceramic Windows",
+        "tagline": "Utrzymuj szyby nieskazitelne, chronione przed UV i lśniące przez lata.",
+        "cadence": "Co 1–3 lata.",
+        "note": "Efekty hydrofobowe mogą blaknąć; regularne, prawidłowe mycie ręczne pomaga zachować wykończenie i zapobiega zarysowaniom."
+      },
+      "ceramicWheels": {
+        "name": "Ceramic Wheels",
+        "tagline": "Utrzymuj felgi i koła lśniące, odporne na kurz i wolne od zarysowań przez lata.",
+        "cadence": "Co 1–3 lata.",
+        "note": "Efekty hydrofobowe mogą blaknąć; regularne, prawidłowe mycie ręczne pomaga zachować wykończenie i zapobiega zarysowaniom."
+      },
+      "titaniumGloss": {
+        "name": "Titanium Gloss",
+        "tagline": "Przywróć lakierowi auta bez skazy, połyskliwe i trwale chronione wykończenie.",
+        "cadence": "Co 1–3 lata.",
+        "note": "Wyniki mogą się różnić i nie wszystkie wady można usunąć ze względu na ich głębokość lub stan lakieru pojazdu."
+      }
+    }
+  },
+  "membership": {
+    "eyebrow": "Członkostwo",
+    "title": "Myj więcej. Płać mniej.",
+    "subtitle": "Dołącz do członkostwa da.detailing i zablokuj ceny dla członków na każdej usłudze, a także rezerwację priorytetową i dedykowane wsparcie.",
+    "becomeMember": "Zostań członkiem",
+    "comparePricing": "Porównaj ceny",
+    "price": "39 $",
+    "pricePeriod": "/miesiąc, anulowanie po 12 miesiącach",
+    "perks": {
+      "discount": "Do 35% zniżki na każdą rezerwację",
+      "priority": "Rezerwacja priorytetowa — rezerwuj przed innymi",
+      "packages": "Ekskluzywne pakiety tylko dla członków",
+      "support": "Dedykowana linia wsparcia",
+      "billing": "Elastyczne rozliczenia miesięczne lub roczne"
+    },
+    "terms": "Minimalny okres 12 miesięcy. 59 $ opłaty za wcześniejsze rozwiązanie. Opłata członkowska nie podlega zwrotowi."
+  },
+  "repairs": {
+    "eyebrow": "Więcej niż mycie",
+    "title": "Więcej niż serwis czyszczący. Robimy też popularne naprawy.",
+    "items": {
+      "paintlessDent": {
+        "name": "Bezbarwne usuwanie wgnieceń",
+        "blurb": "Usuń drobne wgniecenia i zarysowania bez wpływu na fabryczny lakier."
+      },
+      "titaniumGloss": {
+        "name": "Titanium Gloss",
+        "blurb": "Wieloetapowa korekta lakieru i powłoka ceramiczna dla bez skazy połysku jak z salonu."
+      },
+      "windowTinting": {
+        "name": "Przyciemnianie szyb",
+        "blurb": "Premium folie przyciemniające, które redukują ciepło, odblaski i UV, podnosząc wygląd auta."
+      },
+      "wheelRim": {
+        "name": "Naprawa kół i felg",
+        "blurb": "Napraw rysy, otarcia i uszkodzenia od krawężników, by felgi wyglądały jak nowe."
+      }
+    }
+  },
+  "testimonials": {
+    "john": {
+      "quote": "Wszystko zrobiono bez wody, ręcznie polerowane i detailowane. Nie wierzę, jak wygodne to było — zapach nowego auta!",
+      "name": "John",
+      "location": "Los Angeles, CA"
+    },
+    "josh": {
+      "quote": "Zdecydowanie polecam da.detailing każdemu, kto szuka wygodnej i najwyższej jakości usługi czyszczenia auta. Na pewno zostanę stałym klientem.",
+      "name": "Josh",
+      "location": "Miami, FL"
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "Jak to działa",
+    "title": "Jak działa da.detailing?",
+    "step1": "Krok 1",
+    "step1Title": "Zarezerwuj wizytę",
+    "step1Blurb": "Powiedz nam kiedy i gdzie. Będziemy na miejscu w ciągu 90 minut.",
+    "step2": "Krok 2",
+    "step2Title": "Przyjeżdżamy do Ciebie",
+    "step2Blurb": "Przypisany detailer przyjedzie w pełni wyposażony, aby wykonać usługę w wybranym miejscu.",
+    "step3": "Krok 3",
+    "step3Title": "Oceń detailera",
+    "step3Blurb": "Płacisz dopiero po usłudze. Daj nam znać, jak poszło i oceń detailera."
+  },
+  "cta": {
+    "badge": "Zapach nowego auta, gwarantowany",
+    "title": "Pozwól nam pomóc Ci odzyskać zapach nowego auta już dziś",
+    "subtitle": "Zapisz się, a przyślemy w pełni wyposażonego detailera na Twoją lokalizację w zaledwie 90 minut.",
+    "bookNow": "Rezerwuj",
+    "viewMembership": "Zobacz członkostwo"
+  },
+  "faq": {
+    "eyebrow": "Pomoc",
+    "title": "Najczęściej zadawane pytania",
+    "items": {
+      "q1": {
+        "question": "Jaka jest różnica między da.detailing a lokalnymi myjniami?",
+        "answer": "Wybór da.detailing to niespotykana wygoda — wyobraź sobie profesjonalistę, który przyjeżdża bezpośrednio do Twojego domu lub biura, aby umyć auto. Nasi specjaliści to nie byle jacy detailerzy; zostali dokładnie sprawdzeni, demonstrując swoje wyjątkowe umiejętności osobiście przed dołączeniem do platformy. W pełni wyposażeni i ubezpieczeni, są gotowi dostarczyć usługę najwyższej jakości, gdziekolwiek jesteś."
+      },
+      "q2": {
+        "question": "Czy muszę mieć jakieś sprzęt?",
+        "answer": "Nie! Nasi detailerzy przyjeżdżają w pełni przygotowani ze wszystkimi niezbędnymi materiałami, w tym generatorem prądu i źródłem wody."
+      },
+      "q3": {
+        "question": "Czy możecie umyć auto w dowolnym miejscu?",
+        "answer": "Aby zapewnić najlepszą usługę, auto powinno stać w łatwo dostępnym miejscu. Należy pamiętać, że nie obsługujemy aut na publicznych parkingach (np. sklepach, galeriach). Odpowiednie miejsca to: zewnętrzne miejsce parkingowe z dużą przestrzenią, kryty garaż lub parking z autoryzacją obsługi lub podjazd domu. W przypadku usług na parkingach krytycznych podaj niezbędne dane dostępowe (np. kody bramy) przy rezerwacji."
+      },
+      "q4": {
+        "question": "Jak płacę za usługę?",
+        "answer": "da.detailing działa bezgotówkowo dla Twojej wygody i bezpieczeństwa. Płatności można łatwo dokonać przez naszą aplikację lub stronę, używając karty debetowej lub kredytowej. Nasza platforma jest bezpieczna i przyjazna w obsłudze, zapewniając płynny proces transakcji."
+      },
+      "q5": {
+        "question": "Jak uzyskacie dostęp do auta?",
+        "answer": "Po przyjeździe detailer skontaktuje się z Tobą, aby uzgodnić dostęp do pojazdu. Możesz spotkać się z detailerem osobiście lub podać szczegółowe instrukcje dostępu przy rezerwacji usługi."
+      },
+      "q6": {
+        "question": "A co jeśli mam więcej niż jedno auto?",
+        "answer": "Łatwo zarządzaj wieloma pojazdami! Wystarczy użyć funkcji wielu aut w naszej aplikacji lub na stronie, aby zaplanować usługi dla wszystkich pojazdów, zapewniając, że ten sam detailer zajmie się każdym z nich."
+      },
+      "q7": {
+        "question": "Nie wiem, czego potrzebuję ja/moje auto: czy jest z kimś, z kim mogę porozmawiać?",
+        "answer": "Nasz dedykowany zespół wsparcia klienta pomoże Ci wybrać idealny pakiet dla potrzeb Twojego auta. Skontaktuj się pod (855) 210-1337 lub napisz na support@da.detailing, aby uzyskać spersonalizowaną poradę i wsparcie."
+      }
+    }
+  },
+  "footer": {
+    "services": "Usługi",
+    "company": "Firma",
+    "account": "Konto",
+    "about": "O nas",
+    "locations": "Lokalizacje",
+    "joinTeam": "Dołącz do zespołu",
+    "businessClients": "Klienci biznesowi",
+    "support": "Pomoc",
+    "login": "Logowanie",
+    "signUp": "Rejestracja",
+    "membership": "Członkostwo",
+    "pricing": "Cennik",
+    "repairs": "Naprawy",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "location": "Los Angeles, CA",
+    "phone": "(855) 210-1337",
+    "email": "support@da.detailing"
+  },
+  "language": {
+    "label": "Język",
+    "en": "Angielski",
+    "pl": "Polski",
+    "ua": "Ukraiński"
+  }
+}

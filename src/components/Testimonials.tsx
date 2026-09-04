@@ -1,14 +1,17 @@
 import { Star, Quote } from 'lucide-react';
-import { testimonials } from '@/data/content';
+import { useTranslation } from '@/i18n/TranslationContext';
 
 export default function Testimonials() {
+  const { t } = useTranslation();
+  const items = ['john', 'josh'] as const;
+
   return (
     <section className="relative py-20 md:py-28">
       <div className="container-x">
         <div className="grid gap-6 md:grid-cols-2">
-          {testimonials.map((t, i) => (
+          {items.map((key, i) => (
             <figure
-              key={t.name}
+              key={key}
               className="reveal relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.06] to-transparent p-8 md:p-10"
               style={{ transitionDelay: `${i * 80}ms` }}
             >
@@ -19,10 +22,13 @@ export default function Testimonials() {
                 ))}
               </div>
               <blockquote className="mt-5 font-display text-xl font-medium leading-relaxed text-white md:text-2xl">
-                "{t.quote}"
+                "{t(`testimonials.${key}.quote`)}"
               </blockquote>
               <figcaption className="mt-6 text-sm text-slate-400">
-                <span className="font-semibold text-white">{t.name}</span> | {t.location}
+                <span className="font-semibold text-white">
+                  {t(`testimonials.${key}.name`)}
+                </span>{' '}
+                | {t(`testimonials.${key}.location`)}
               </figcaption>
             </figure>
           ))}

@@ -1,24 +1,15 @@
 import { Clock, ShieldCheck, HeartHandshake } from 'lucide-react';
-
-const items = [
-  {
-    icon: Clock,
-    title: 'Convenience',
-    blurb: 'Get your car washed or detailed from the comfort of your home. Book easy for today or plan ahead.',
-  },
-  {
-    icon: ShieldCheck,
-    title: 'Quality',
-    blurb: 'Experience exceptional service from our largest network of expert and insured detailers.',
-  },
-  {
-    icon: HeartHandshake,
-    title: 'Trust',
-    blurb: 'Enjoy peace of mind with our 100% satisfaction policy and a dedicated support team.',
-  },
-];
+import { useTranslation } from '@/i18n/TranslationContext';
 
 export default function WhyUs() {
+  const { t } = useTranslation();
+
+  const items = [
+    { icon: Clock, title: t('why.convenience.title'), blurb: t('why.convenience.blurb') },
+    { icon: ShieldCheck, title: t('why.quality.title'), blurb: t('why.quality.blurb') },
+    { icon: HeartHandshake, title: t('why.trust.title'), blurb: t('why.trust.blurb') },
+  ];
+
   return (
     <section id="why" className="relative py-20 md:py-28">
       <div className="absolute inset-0 -z-10">
@@ -26,8 +17,8 @@ export default function WhyUs() {
       </div>
       <div className="container-x">
         <div className="reveal mx-auto max-w-2xl text-center">
-          <p className="eyebrow">Why da.detailing</p>
-          <h2 className="section-title mt-3">Built around your time, your car, your trust</h2>
+          <p className="eyebrow">{t('why.eyebrow')}</p>
+          <h2 className="section-title mt-3">{t('why.title')}</h2>
         </div>
 
         <div className="mt-14 grid gap-6 md:grid-cols-3">

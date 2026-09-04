@@ -1,9 +1,12 @@
 import { Star, MapPin, ArrowRight, ShieldCheck, Clock, Droplets } from 'lucide-react';
+import { useTranslation } from '@/i18n/TranslationContext';
 
 const HERO_IMG =
   'https://images.pexels.com/photos/28995187/pexels-photo-28995187.jpeg?auto=compress&cs=tinysrgb&w=1400';
 
 export default function Hero() {
+  const { t } = useTranslation();
+
   return (
     <section id="top" className="relative overflow-hidden pt-28 md:pt-36">
       {/* Background */}
@@ -18,26 +21,25 @@ export default function Hero() {
         {/* Copy */}
         <div className="reveal">
           <span className="inline-flex items-center gap-2 rounded-full border border-brand-400/30 bg-brand-500/10 px-4 py-1.5 text-xs font-semibold text-brand-200">
-            <Clock className="h-3.5 w-3.5" /> Available in as little as 90 minutes
+            <Clock className="h-3.5 w-3.5" /> {t('hero.badge')}
           </span>
 
           <h1 className="mt-6 font-display text-4xl font-bold leading-[1.05] text-white sm:text-5xl md:text-6xl">
-            The car detail
+            {t('hero.title')}
             <br />
-            that <span className="text-brand-400">comes to you</span>
+            <span className="text-brand-400">{t('hero.titleAccent')}</span>
           </h1>
 
           <p className="mt-5 max-w-md text-base leading-relaxed text-slate-300 sm:text-lg">
-            Professional hand wash and detailing at your home or office. Vetted, insured
-            detailers arrive fully equipped — you just pick the time and place.
+            {t('hero.subtitle')}
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a href="#book" className="btn-primary">
-              Book now <ArrowRight className="h-4 w-4" />
+              {t('hero.bookNow')} <ArrowRight className="h-4 w-4" />
             </a>
             <a href="#services" className="btn-ghost">
-              View pricing
+              {t('hero.viewPricing')}
             </a>
           </div>
 
@@ -50,12 +52,12 @@ export default function Hero() {
                 ))}
               </div>
               <span className="text-sm text-slate-300">
-                <span className="font-semibold text-white">10,000+</span> 5-star reviews since 2015
+                <span className="font-semibold text-white">{t('hero.reviews')}</span>
               </span>
             </div>
             <div className="flex items-center gap-2 text-sm text-slate-300">
               <ShieldCheck className="h-4 w-4 text-accent-400" />
-              Insured &amp; vetted detailers
+              {t('hero.insured')}
             </div>
           </div>
         </div>
@@ -73,13 +75,13 @@ export default function Hero() {
 
             {/* Floating cards */}
             <div className="absolute left-4 top-4 flex items-center gap-2 rounded-2xl border border-white/10 bg-ink-900/70 px-3 py-2 text-xs font-medium text-white backdrop-blur-md animate-float">
-              <Droplets className="h-4 w-4 text-brand-300" /> Waterless option available
+              <Droplets className="h-4 w-4 text-brand-300" /> {t('hero.waterless')}
             </div>
             <div
               className="absolute bottom-4 right-4 flex items-center gap-2 rounded-2xl border border-white/10 bg-ink-900/70 px-3 py-2 text-xs font-medium text-white backdrop-blur-md animate-float"
               style={{ animationDelay: '1.5s' }}
             >
-              <MapPin className="h-4 w-4 text-accent-400" /> 150+ detailers on the road
+              <MapPin className="h-4 w-4 text-accent-400" /> {t('hero.detailers')}
             </div>
           </div>
         </div>
